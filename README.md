@@ -1,27 +1,30 @@
 # 📄 AI Resume Analyzer
 
-This project analyzes resumes and provides:
-- Extracted skills
-- ATS score
-- Suggestions for improvement
-- Skills visualization (pie chart)
+This project is a web application that analyzes resumes and provides useful insights.
 
 ## 🚀 Features
 - Upload PDF resume
-- Automatic skill detection
-- ATS scoring
-- Visual charts
+- Extract skills automatically
+- Generate ATS score
+- Provide improvement suggestions
 
 ## 🛠️ Tech Stack
 - Python
 - Streamlit
 - pdfplumber
-- matplotlib
 
-## ▶️ Run Locally
-pip install -r requirements.txt
-streamlit run app.py
+## ▶️ How to Run
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Run the app:
+   streamlit run app.py
+
+## 💡 Output
+This app shows:
+- Skills detected
+- ATS score
+- Suggestions to improve resume
 
 ## 👩‍💻 Author
 Prachi Joshi
-
